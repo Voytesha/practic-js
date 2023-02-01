@@ -255,25 +255,25 @@
 
 // Створити кілька кнопок на основі масива з обєктами використовуючи createElement
 
-const container = document.getElementById("container");
-const colors = [
-    {
-        label: "red",
-        color: "#FF0000",
-    },
-    {
-        label: "green",
-        color: "#00FF00",
-    },
-    {
-        label: "blue",
-        color: "#0000FF",
-    },
-    {
-        label: "yellow",
-        color: "#FFFF00",
-    },
-];
+// const container = document.getElementById("container");
+// const colors = [
+//     {
+//         label: "red",
+//         color: "#FF0000",
+//     },
+//     {
+//         label: "green",
+//         color: "#00FF00",
+//     },
+//     {
+//         label: "blue",
+//         color: "#0000FF",
+//     },
+//     {
+//         label: "yellow",
+//         color: "#FFFF00",
+//     },
+// ];
 
 /*
     1. Перебор масиву кольорів за допомогою циклу
@@ -283,11 +283,12 @@ const colors = [
     5. Додаємо кнопку в документ
 
 */
-colors.forEach(({ label, color }) => {
-    const buttonEl = document.createElement("button");
-    buttonEl.style.backgroundColor = color;
-    buttonEl.classList.add("indents");
-    //buttonEl.style.margin = "5px";
-    buttonEl.textContent = label;
-    container.appendChild(buttonEl);
-});
+// colors.forEach(({ label, color }) => {
+//     const buttonEl = document.createElement("button");
+//     buttonEl.style.backgroundColor = color;
+//     buttonEl.classList.add("indents");
+//     //buttonEl.style.margin = "5px";
+//     buttonEl.textContent = label;
+//     container.appendChild(buttonEl);
+// });
+
